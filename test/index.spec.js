@@ -4,6 +4,11 @@ const redact = require('../src/index');
 
 const UNCHANGING = [
   'http://example.com',
+  'E       pip install git+https://github.com/medic/pyxform.git@medic-conf-1.5#egg=pyxform-medic',
+  `http://
+  :@`,
+  `website: http://example.com
+  twitter: @example`,
 ];
 
 const REDACTABLE = {
