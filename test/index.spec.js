@@ -13,6 +13,7 @@ const UNCHANGING = [
 
 const REDACTABLE = {
   'http://username:password@example.com': 'http://username:****@example.com',
+  'http://username:hello%20this%20is%20a%20password@example.com': 'http://username:****@example.com',
 };
 
 describe('redact', () => {
