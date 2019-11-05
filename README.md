@@ -1,5 +1,6 @@
 # Install
 
+	yarn add redact-basic-auth
 	npm install redact-basic-auth
 
 # Use
